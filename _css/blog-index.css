@@ -1,0 +1,61 @@
+.franklin-content {
+  
+  width: 85%;
+  min-height: 80vh;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "left middle right";
+}
+
+.page-list {
+
+  grid-area: middle;
+  align-content: center;
+}
+
+.blog-card {
+ 
+ padding: 1em;
+ margin: 0.5em;
+ border: thin solid grey;
+ border-radius: 5px;
+}
+
+.blog-card .title {
+  
+  font-family: var(--heading);
+  text-align: left;  
+  font-size: var(--large);
+
+}
+
+.blog-card .author {
+
+  text-align: left;
+  font-size: var(--small);
+  color: grey; 
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+
+.blog-card .abstract {
+  
+  padding-top: 0.5em;
+  padding-left: 1em;
+  font-size: var(--small);
+  font-family: var(--body)
+  
+}
+
+
+
+
+
+
+
+
+
+
+

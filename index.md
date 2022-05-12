@@ -1,0 +1,6 @@
++++
+title = "QUALSA"
+hasmath = true
++++
+
+
