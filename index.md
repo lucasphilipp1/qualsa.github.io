@@ -1,6 +1,0 @@
-+++
-title = "QUALSA"
-hasmath = true
-+++
-
-
