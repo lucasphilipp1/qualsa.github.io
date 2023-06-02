@@ -1,0 +1,4 @@
+Sitemap: qualsa.org/sitemap.xml
+
+User-agent: *
+Disallow:
