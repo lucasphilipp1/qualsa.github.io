@@ -1,0 +1,34 @@
+/* ==================================================================
+    FOOT / COPYRIGHT
+================================================================== */
+
+.page-foot a {
+
+  text-decoration: none;
+  color: #a6a2a0;
+}
+
+.page-foot a::before{
+
+  content: " ";
+}
+
+.page-foot a::after{
+
+  content: " ";
+}
+
+.page-foot {
+
+  display: flex;
+
+  font-size: var(--small);
+  color: #a6a2a0;
+  height: 8vh; 
+
+  justify-content: center;
+  align-items: center;
+
+  filter: drop-shadow(0 0 4px black);
+  background-color: white;
+}

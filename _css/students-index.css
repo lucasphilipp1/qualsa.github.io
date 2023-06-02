@@ -1,0 +1,9 @@
+.franklin-content {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); 
+    grid-auto-rows: min-content;
+    gap: 2cm; 
+    align-content: stretch;
+    justify-content: center;
+}

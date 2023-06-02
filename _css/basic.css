@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+/* ==================================================================
+    VARIABLES
+================================================================== */
+
+:root {
+  --block-background: hsl(0, 0%, 94%);
+  --output-background: hsl(0, 0%, 98%);
+
+  --small: 12pt;
+  --normal: 16pt;
+  --large: 18pt;
+  
+  --heading: 'Montserrat', sans-serif;
+  --body: 'Cormorant Garamond', serif;
+
+  --text-color: hsv(0, 0%, 20%);
+}
+
+/* ==================================================================
+    DEFAULT FONT AND LAYOUT
+================================================================== */
+
+html {
+
+  font-family: var(--heading);
+  font-size: var(--normal);
+  color: var(--text-color);
+}
+
+/* ==================================================================
+    TEXT GEOMETRY
+================================================================== */
+
+.franklin-content {
+
+  min-height: 92vh;
+  padding: 3em 10% 3em 10% ;
+  line-height: 1.4em;
+}
+
+body{
+
+  margin: 0 0 0 0;
+}
+
+/* ==================================================================
+    Header and Nav
+================================================================== */
+
+nav {
+
+    width: 64%;
+    display: inline-block;
+}
+
+nav ul {
+
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+header {
+
+  text-align: right;
+  display: flex;
+  height: 8vh;
+  max-height: 2cm;
+  align-items: center;
+
+  background-color: white;
+  filter: drop-shadow(0 0 4px black)
+}
+
+.blog-name {
+
+  width: 35%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.blog-name a {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  color: black;
+  text-decoration: none;
+}
+
+#logo {
+
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0.5em;
+}
+
+#menu-icon {
+
+  display: none;
+}
+
+/* wide display: enforce maximum width of header to match content */
+@media (min-width: 800px) {
+
+  header {
+
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+}
+
+/*
+narrow display: collapse the header (don't show the menu items)
+instead, display a burger menu.
+*/
+@media (max-width: 800px) {
+
+  header {
+
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+
+  header .blog-name {
+
+    display: inline-block;
+    width: 70%;
+  }
+
+  nav {
+
+    display: inline-block;
+    width: 27%;
+  }
+
+  nav ul, nav:active ul {
+
+    display: none;
+    background: #fff;
+    border: 1px solid #444;
+    right: 50px;
+    top: 60px;
+    width: 30%;
+    border-radius: 4px 0 4px 4px;
+    z-index: 1;
+  }
+
+  nav li {
+
+    text-align: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  header li a { border-bottom: none; }
+  header li a:hover { border-bottom: none; }
+
+  nav:hover ul {
+
+    display: block;
+  }
+
+  #menu-icon {
+
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+table {
+
+  line-height: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+tr:first-of-type {
+
+  background: #eae9f4;
+}
+
+tr:first-of-type > th {
+
+  text-align: center;
+}
+
+tr, th, td {
+
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+table tbody tr td {
+
+  border: 1px solid lightgray;
+}
+
+/* ==================================================================
+  Basic Formatting 
+================================================================== */
+
+a {
+
+    text-decoration:none;
+    color: black;
+}
+
+a:hover {
+  
+  text-decoration: none;
+  text-shadow: 0px 0px 1px;
+}
+
+/* Franklin seems to be wrapping some stuff in <p>s, I don't want this
+   affecting formating.*/
+p {
+
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/* ==================================================================
+    KATEX
+================================================================== */
+
+body { counter-reset: eqnum; }
+
+.katex { font-size: 1em !important; }
+
+.katex-display .katex {
+  
+  /* Overwrite KaTeX settings. */
+  display: inline-block;
+
+  /* Allow display equations to wrap on small screens. */
+  white-space: normal;
+}
+
+.katex-display::after {
+
+  counter-increment: eqnum;
+  content: "(" counter(eqnum) ")";
+  position: relative;
+  float: right;
+  padding-right: 5px;
+}
+
+.nonumber .katex-display::after {
+
+  counter-increment: nothing;
+  content: "";
+}
+
+/* ==================================================================
+    CODE & HIGHLIGHT.JS
+================================================================== */
+
+code {
+
+  background-color: var(--block-background);
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+  font-size: var(--small);
+}
+
+/* .franklin-content code { */
+
+/* background-color: rgba(27,31,35,0.05); */
+
+/* padding: 0.1em 0.2em; */
+
+/* border-radius: 2px; */
+
+/* font-size: 90%; } */
+
+.hljs {
+
+  font-size: var(--small);
+  line-height: 1.35em;
+  border-radius: 10px;
+}
+
+.hljs-meta, .hljs-metas, .hljs-metap { 
+  
+  font-weight: bold;
+}
+
+.hljs-meta { 
+  
+  color: rgb(25, 179, 51); 
+}
+
+.hljs-metas { 
+  
+  color: red; 
+}
+
+.hljs-metap { 
+
+  color: rgb(51, 131, 231);
+}
+
+.code-output {
+
+  background: var(--output-background);
+  border: 1px dashed #dbdbdb;
+}

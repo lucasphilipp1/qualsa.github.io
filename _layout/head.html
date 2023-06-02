@@ -1,0 +1,55 @@
+<!doctype html> 
+<!--
+  Franklin expects to find a file called head.html here. To control what
+  layout is used for different types of pages, use html functions to insert
+  layouts from another file based on some page variable.
+-->
+
+<html lang="en-ca">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{if hasmath}}
+    {{insert head_katex.html }}
+  {{end}}
+
+  {{if hascode}}
+    {{insert head_highlight.html }}  
+  {{end}}
+
+  <!--Basic stylesheets that apply to all pages-->
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/basic.css">
+    
+  <!-- Conditionally load stylesheets based on the type of content -->
+  {{ispage /index.html}} <!-- Stylesheet for the landing page -->
+    <link rel="stylesheet" href="/css/landing_page.css">
+  {{end}}
+
+  {{ispage /executives/index.html}} <!-- Stylesheet for the blog index.html-->
+    <link rel="stylesheet" href="/css/executives.css">
+  {{end}}
+
+  {{ispage /students/index.html}} <!-- Stylesheet for the  students index -->
+      <link rel="stylesheet" href="/css/students-index.css">
+  {{end}}
+
+  {{ispage /constitution/index.html}} <!-- Stylesheet for research index -->
+    <link rel="stylesheet" href="/css/constitution.css">
+  {{end}}
+
+  <link rel="icon" href="/assets/favicon.svg">
+  {{isdef title}}
+    <title>{{fill title}}</title> 
+  {{end}}
+  
+</head>
+
+<body>
+
+{{insert header.html}}
+
+<!-- Content appended here -->
