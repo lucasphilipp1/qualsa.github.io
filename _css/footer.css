@@ -25,6 +25,7 @@
   font-size: var(--small);
   color: #a6a2a0;
   height: 8vh; 
+  max-height: 2cm;
 
   justify-content: center;
   align-items: center;
