@@ -9,5 +9,5 @@ ignore = ["node_modules/"]
 generate_rss = false 
 website_title = "QUALSA"
 website_descr = "Quantitative Life Sciences Association"
-website_url   = "qualsa.org"
+website_url   = "qualsa.github.io"
 +++
