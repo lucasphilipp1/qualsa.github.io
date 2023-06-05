@@ -1,4 +1,4 @@
-Sitemap: qualsa.org/sitemap.xml
+Sitemap: qualsa.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
