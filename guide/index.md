@@ -251,9 +251,9 @@ dedicated QLS students aiming to provide you a well-rounded social and academic 
 during your time at McGill. We organize regular social events and provide platforms for
 student to share and discuss various research topics in peer-review sessions. We also
 represent the QLS student body at the Post-Graduate Student Society (PGSS, QUALSA’s parent
-organization) councils and during meetings with the administration.  Together with the
-Department of QLS, QUALSA also helps organize the Annual QLS Research Day. QUALSA’s
-council positions include:
+organization) councils and during meetings with the administration. Together with the QLS
+administration, QUALSA also helps organize the Annual QLS Research Day. QUALSA’s council
+positions include:
 
 * President
 * Chair Secretariat
