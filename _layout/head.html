@@ -24,30 +24,7 @@
   <link rel="stylesheet" href="/css/footer.css">
   <link rel="stylesheet" href="/css/basic.css">
     
-  <!-- Conditionally load stylesheets based on the type of content -->
-  {{ispage /index.html}} <!-- Stylesheet for the landing page -->
-    <link rel="stylesheet" href="/css/landing_page.css">
-  {{end}}
-
-  {{ispage /executives/index.html}} <!-- Stylesheet for the blog index.html-->
-    <link rel="stylesheet" href="/css/executives.css">
-  {{end}}
-
-  {{ispage /students/index.html}} <!-- Stylesheet for the  students index -->
-      <link rel="stylesheet" href="/css/students-index.css">
-  {{end}}
-
-  {{ispage /executives/index.html}} <!-- Stylesheet for the  executives index -->
-      <link rel="stylesheet" href="/css/executives-index.css">
-  {{end}}
-
-  {{ispage /constitution/index.html}} <!-- Stylesheet for constitution index -->
-    <link rel="stylesheet" href="/css/constitution.css">
-  {{end}}
-
-  {{ispage /guide/index.html}} <!-- Stylesheet for guide index -->
-    <link rel="stylesheet" href="/css/constitution.css">
-  {{end}}
+  {{ link_css }}
 
   <link rel="icon" href="/assets/favicon.svg">
   {{isdef title}}

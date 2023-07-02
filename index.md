@@ -1,6 +1,7 @@
 +++
 title = "QUALSA"
 hasmath = true
+css = "landing_page.css"
 +++
 
 ~~~

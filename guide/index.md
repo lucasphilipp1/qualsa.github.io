@@ -1,5 +1,6 @@
 +++
 title = "QLS Guide"
+css = "constitution.css"
 +++
 
 # The QLS Student Guide
