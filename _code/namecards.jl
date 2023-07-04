@@ -1,6 +1,6 @@
-function hfun_students_index()
+function hfun_namecardlist(jsonfile::Vector{String})
 
-    data = joinpath("_data", "students.json")
+    data = joinpath("_data", jsonfile[1])
     data = JSON.parsefile(data, dicttype=Dict)
 
     template = joinpath("_templates", "name-card.html")

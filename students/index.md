@@ -3,4 +3,4 @@ title = "Students"
 css = "students-index.css"
 +++
 
-{{ students_index }}
+{{ namecardlist students.json }}
