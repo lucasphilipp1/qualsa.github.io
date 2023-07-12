@@ -1,8 +1,45 @@
 [
-{"name":"Jake Harvey", "description":"President", "headshot":"/assets/jake.jpg"},
-{"name":"Sean Moore", "description":"VP Finance", "headshot":"/assets/jake.jpg"},
-{"name":"Benjamin Rudsky", "description":"VP Academic", "headshot":"/assets/jake.jpg"},
-{"name":"Maximiliane Jousse", "description":"VP Social", "headshot":"/assets/jake.jpg"},
-{"name":"Rodrigo Migueles Ramirez", "description":"VP External", "headshot":"/assets/jake.jpg"},
-{"name":"Joon Hwan Hong", "description":"Chair Secretariat", "headshot":"/assets/jake.jpg"}
+{
+    "name":"Jake Harvey",
+    "description":"President",
+    "headshot":"/assets/headshots/jake_harvey.jpg",
+    "mastodon":"https://ecoevo.social/@jkharv",
+    "email":"jacob.harvey@mail.mcgill.ca",
+    "github":"jkharv"
+},
+{
+    "name":"Sean Moore",
+    "description":"VP Finance",
+    "headshot":"/assets/headshots/sean_moore.jpg",
+    "email":"sean.moore3@mail.mcgill.ca",
+    "github":"Buyancy"
+},
+{
+    "name":"Rodrigo Migueles Ramirez",
+    "description":"VP External",
+    "headshot":"/assets/headshots/rodrigo_ramirez.jpg",
+    "email":"rodrigo.miguelesramirez@mail.mcgill.ca",
+    "github":"Malvick17"
+},
+{
+    "name":"Benjamin Rudski",
+    "description":"VP Academic",
+    "headshot":"/assets/headshots/benjamin_rudski.png",
+    "email":"benjamin.rudski@mail.mcgill.ca",
+    "github":"bzrudski"
+},
+{
+    "name":"Maximiliane Jousse",
+    "description":"VP Social",
+    "headshot":"/assets/headshots/max_jousse.jpg",
+    "email":"maximiliane.jousse@mail.mcgill.ca",
+    "github":"MJousse"
+},
+{
+    "name":"Joon Hwan Hong",
+    "description":"Chair Secretariat",
+    "headshot":"/assets/headshots/joon_hong.jpg",
+    "email":"joon.hong@mail.mcgill.ca",
+    "github":"Joon-Hwan-Hong"
+}
 ]

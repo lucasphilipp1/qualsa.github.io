@@ -9,7 +9,7 @@
   padding: 1em;
 
   background: rgb(256, 256, 256, 0.95);
-  filter: drop-shadow(0 0 16px black);
+  filter: drop-shadow(0 0 8px black);
  
   border-radius: 16px;
 }

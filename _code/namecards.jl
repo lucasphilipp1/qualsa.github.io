@@ -1,15 +1,31 @@
+"""
+## Keys
+
+### General
+- name
+- description
+- headshot
+
+### Socials
+
+- mastodon
+- github
+- email
+- twitter
+"""
 function hfun_namecardlist(jsonfile::Vector{String})
+
+    template = joinpath("_templates", "name-card.html")
+    template = read(template, String)
+    template = Mustache.parse(template, ("[[", "]]"))
 
     data = joinpath("_data", jsonfile[1])
     data = JSON.parsefile(data, dicttype=Dict)
 
-    template = joinpath("_templates", "name-card.html")
-    template = Mustache.load(template)
-
     html = ""
 
-    for entry ∈ data
-
+    for entry ∈ data 
+        
         html = html * Mustache.render(template, entry)
     end
 

@@ -1,19 +1,30 @@
 <div class="name-card">
   <link rel="stylesheet" href="/css/name-card.css">
-  <img src="{{headshot}}">
-  <h2>{{name}}</h2>
+  <img src="[[headshot]]">
+  <h2>[[name]]</h2>
   <div class="socials">
-    <a href="">  
-      <img src="/assets/icons/mastodon.svg"> 
+    [[#mastodon]]
+    <a href="[[mastodon]]">
+      <img src="/assets/icons/mastodon.svg">
     </a>
-    <a href="">
-      <img src="/assets/icons/github.svg"> 
+    [[/mastodon]]
+    [[#github]]
+    <a href="https://github.com/[[github]]">
+      <img src="/assets/icons/github.svg">
     </a>
-    <a href="">
-      <img src="/assets/icons/envelope.svg"> 
+    [[/github]]
+    [[#email]]
+    <a href="mailto:[[email]]">
+      <img src="/assets/icons/envelope.svg">
     </a>
+    [[/email]]
+    [[#twitter]]
+    <a href="https://twitter.com/[[twitter]]">
+      <img src="/assets/icons/twitter.svg">
+    </a>
+    [[/twitter]]
   </div>
   <div class="description">
-    {{description}} 
+    [[description]] 
   </div>
 </div>
