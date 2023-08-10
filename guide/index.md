@@ -9,8 +9,8 @@ css = "constitution.css"
 
 ### Minerva
 
-[Minerva Login](https://horizon.mcgill.ca)  
-[How to log into Minerva](https://www.mcgill.ca/minerva-guests/minerva-login)
+* [Minerva Login](https://horizon.mcgill.ca)  
+* [How to log into Minerva](https://www.mcgill.ca/minerva-guests/minerva-login)
 
 Minerva allows you to access McGill's central information system through several menus:
 
@@ -34,8 +34,8 @@ Minerva allows you to access McGill's central information system through several
 
 ### myCourses
 
-[myCourses login](https://mycourses2.mcgill.ca/)  
-[Resources regarding myCourses](https://www.mcgill.ca/mycourses/)
+* [myCourses login](https://mycourses2.mcgill.ca/)  
+* [Resources regarding myCourses](https://www.mcgill.ca/mycourses/)
 
 On myCourses, students can see all ongoing and previous courses and access their content
 (for as long as the instructor leaves them up). Grades for assignments and exams are also
@@ -44,8 +44,8 @@ your transcripts in Minerva (under Student Menu).
 
 ### myProgess
 
-[Login to myProgess](https://horizon.mcgill.ca/myprogress)  
-[Resources about myProgress](
+* [Login to myProgess](https://horizon.mcgill.ca/myprogress)  
+* [Resources about myProgress](
     https://www.mcgill.ca/gps/myprogress/students-and-supervisors)
 
 MyProgress is a great tool for Ph.D. students as it allows you to track important and
@@ -54,8 +54,8 @@ tracking forms…).
 
 ### myThesis
 
-[Login to myThesis](https://mythesis.mcgill.ca/)  
-[Resources about MyThesis](
+* [Login to myThesis](https://mythesis.mcgill.ca/)  
+* [Resources about MyThesis](
     https://www.mcgill.ca/gps/thesis/thesis-guidelines/initial-submission/what-mythesis)
 
 myThesis is part of the myProgress hub. Through myThesis, students are required to notify
@@ -64,7 +64,7 @@ their initial thesis (before the Oral Defence).
 
 ## Program Requirements
 
-[Program requirements on the McGill website](
+* [Program requirements on the McGill website](
     https://www.mcgill.ca/qls/program-requirements)
 
 The Quantitative Life Sciences PhD Program is a novel inter-department and inter-faculty
@@ -127,7 +127,7 @@ student presentations. Varying student workshops (e.g.: effective presentation s
 career panel for students, Q&A with post-docs and professors…) followed by a social hour
 generally conclude the QLS Annual Research Day. 
 
-[See presentations from 2022](
+* [See presentations from 2022](
     https://www.youtube.com/playlist?list=PLCCQ0xdlWGLB-NHpxc01ieGTaDvQP74nw)
 
 ### Advisory Committee Meetings
@@ -146,7 +146,7 @@ knowledge by their examination committee.
 
 ### Thesis Requirements
 
-[McGill thesis guidelines](
+* [McGill thesis guidelines](
     https://www.mcgill.ca/gps/thesis/thesis-guidelines/general-requirements)
 
 The thesis expectations follow the guidelines established by Graduate and Postdoctoral
@@ -250,11 +250,11 @@ submission.
 QUALSA is the **Qua**ntitative **L**ife **S**ciences **A**ssociation. We are a team of six
 dedicated QLS students aiming to provide you a well-rounded social and academic experience
 during your time at McGill. We organize regular social events and provide platforms for
-student to share and discuss various research topics in peer-review sessions. We also
-represent the QLS student body at the Post-Graduate Student Society (PGSS, QUALSA’s parent
-organization) councils and during meetings with the administration. Together with the QLS
-administration, QUALSA also helps organize the Annual QLS Research Day. QUALSA’s council
-positions include:
+student to share and discuss various research topics in peer-review sessions. Furthermore,
+we also represent the QLS student body at the Post-Graduate Student Society (PGSS,
+QUALSA’s parent organization) councils and during meetings with the administration.
+Together with the QLS administration, QUALSA also helps organize the Annual QLS Research
+Day. QUALSA’s council positions include:
 
 * President
 * Chair Secretariat
@@ -267,7 +267,7 @@ Social events:
 * Board game nights at Thomson House every 2nd Wednesday of the month. 
 * Personalized QLS Sweatshirts and accessories.
 * Annual winter formal with other life science departments at McGill.
-* BBQs, intramural sports, excursions to some of Montreal’s espace pour la vie centres. 
+* BBQs, intramural sports, monthly quantitative help desk. 
 
 Academic services: 
 * QUALSA workshop series
