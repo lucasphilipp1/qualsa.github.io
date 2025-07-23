@@ -1,45 +1,40 @@
 [
 {
-    "name":"Jake Harvey",
+    "name":"Zhe Xie",
     "description":"President",
-    "headshot":"/assets/headshots/jake_harvey.jpg",
-    "mastodon":"https://ecoevo.social/@jkharv",
-    "email":"jacob.harvey@mail.mcgill.ca",
-    "github":"jkharv"
+    "headshot":"/assets/headshots/zhe_xie.jpg",
 },
 {
-    "name":"Sean Moore",
-    "description":"VP Finance",
-    "headshot":"/assets/headshots/sean_moore.jpg",
-    "email":"sean.moore3@mail.mcgill.ca",
-    "github":"Buyancy"
-},
-{
-    "name":"Rodrigo Migueles Ramirez",
-    "description":"VP External",
-    "headshot":"/assets/headshots/rodrigo_ramirez.jpg",
-    "email":"rodrigo.miguelesramirez@mail.mcgill.ca",
-    "github":"Malvick17"
-},
-{
-    "name":"Benjamin Rudski",
-    "description":"VP Academic",
-    "headshot":"/assets/headshots/benjamin_rudski.png",
-    "email":"benjamin.rudski@mail.mcgill.ca",
-    "github":"bzrudski"
-},
-{
-    "name":"Maximiliane Jousse",
+    "name":"Lucas Philipp",
     "description":"VP Social",
-    "headshot":"/assets/headshots/max_jousse.jpg",
-    "email":"maximiliane.jousse@mail.mcgill.ca",
-    "github":"MJousse"
+    "headshot":"/assets/headshots/lucas_philipp.jpg",
+    "email":"lucas.philipp@mail.mcgill.ca",
+    "linkedin":"https://www.linkedin.com/in/lucasphilipp1/"
+    "github":"lucasphilipp1"
 },
 {
-    "name":"Joon Hwan Hong",
+    "name":"Najia Bouaddouch",
+    "description":"VP Finance",
+    "headshot":"/assets/headshots/najia_bouaddouch.jpg",
+},
+{
+    "name":"Noah Wightman",
+    "description":"VP External",
+    "headshot":"/assets/headshots/noah_wightman.jpg",
+    "website":"http://noahwightman.github.io/",
+    "instagram":"nudibranch.appreciationclub"
+},
+{
+    "name":"Lydia Hodgins",
+    "description":"VP Academic",
+    "headshot":"/assets/headshots/lydia_hodgins.png",
+    "linkedin":"https://www.linkedin.com/in/lydia-hodgins/",
+},
+{
+    "name":"Vanessa Brien",
     "description":"Chair Secretariat",
-    "headshot":"/assets/headshots/joon_hong.jpg",
-    "email":"joon.hong@mail.mcgill.ca",
-    "github":"Joon-Hwan-Hong"
+    "headshot":"/assets/headshots/vanessa_brien.jpg",
+    "email":"vanessa.brien@mail.mcgill.ca",
+    "github":"nessabee"
 }
 ]
